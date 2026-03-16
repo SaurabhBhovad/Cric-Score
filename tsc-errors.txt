@@ -1,0 +1,21 @@
+﻿src/navigation/AppNavigator.tsx(68,45): error TS2322: Type '({ navigation, route }: Props) => Element' is not assignable to type 'ScreenComponentType<ParamListBase, "TeamDetail"> | undefined'.
+  Type '({ navigation, route }: Props) => Element' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+src/navigation/AppNavigator.tsx(70,50): error TS2322: Type '({ navigation, route }: Props) => Element' is not assignable to type 'ScreenComponentType<ParamListBase, "PlayerSelection"> | undefined'.
+  Type '({ navigation, route }: Props) => Element' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+src/navigation/AppNavigator.tsx(71,44): error TS2322: Type '({ navigation, route }: Props) => Element | null' is not assignable to type 'ScreenComponentType<ParamListBase, "LiveScore"> | undefined'.
+  Type '({ navigation, route }: Props) => Element | null' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+src/navigation/AppNavigator.tsx(72,44): error TS2322: Type '({ navigation, route }: Props) => Element' is not assignable to type 'ScreenComponentType<ParamListBase, "Scorecard"> | undefined'.
+  Type '({ navigation, route }: Props) => Element' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+src/navigation/AppNavigator.tsx(75,51): error TS2322: Type '({ navigation, route }: Props) => Element' is not assignable to type 'ScreenComponentType<ParamListBase, "TournamentDetail"> | undefined'.
+  Type '({ navigation, route }: Props) => Element' is not assignable to type 'FunctionComponent<{}>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type '{}' is missing the following properties from type 'Props': navigation, route
+src/services/supabaseClient.ts(13,5): error TS2353: Object literal may only specify known properties, and 'detectSessionInWindow' does not exist in type '{ autoRefreshToken?: boolean | undefined; storageKey?: string | undefined; persistSession?: boolean | undefined; detectSessionInUrl?: boolean | ((url: URL, params: { [parameter: string]: string; }) => boolean) | undefined; ... 5 more ...; throwOnError?: boolean | undefined; }'.
