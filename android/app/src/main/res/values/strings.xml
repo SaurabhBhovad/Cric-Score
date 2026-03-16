@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">Crick-Scoreboard</string>
+  <string name="expo_splash_screen_resize_mode" translatable="false">contain</string>
+</resources>
